@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wigth=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+
+    <title>CV Mary Ko</title>
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <ul class="nav_list">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#code">Code Example</a></li>
+                <li><a href="#skills">Skills & Qualities</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Maria Korchevnyuk</h1>
+        <h2>Front-end Developer, Junior</h2>
+
+        <div>
+            <img src="/img_portrait.JPG" alt="Portrait photo" width="320" height="640">
+        </div>
+
+    <section>
+        <article>
+            <h3 id="about">About Me</h3>
+            <p>Born: 15.04.2002</p>
+            <p>I see the goal and no obstacles.</p>
+        </article>
+
+        <article>
+            <h3 id="education">Education</h3>
+            <p><b>2009-2020:</b> Academic Gymnasium 56, Saint Petersburg</p>
+            <p><b>2020-2024:</b> Saint Petersburg State Polytechnic University, Innovation Management</p>
+            <p><b>2022:</b> Code Basics, JavaScript for Begginers</p>
+            <p><b>2022:</b> Hexlet, Layout Designer Basics</p>
+            <p><b>2022:</b> Hexlet, Introduction to Programming</p>
+            <p><b>2022:</b> Hexlet, JavaScript Basics</p>
+        </article>
+
+        <article>
+            <h3 id="work">Work Experience</h3>
+            <p>July 1 - July 23, 2022: Marketer, LSR construction company, Department of Analytics, Research, and Development</p>
+        </article>
+
+        <article>
+            <h3 id="code">Code Example (JavaScript)</h3>
+                <p>Функция, принимающая в качестве атрибута текст, возвращающая этот текст в перевернутом виде.</p>
+                <pre>
+                const reverse = (text) => {
+                    let reversedText = '';
+
+                    for (let i = 0; text.length > i; i++) {
+                        reversedText = `${text[i]}${reversedText}`;
+                    }
+                    return reversedText;
+                };
+            </pre>
+        </article>
+
+        <article>
+            <h3 id="skills">Skills & Qualities</h3>
+            <ul>
+                <li>Structure Logic</li>
+                <li>Analytic Thinking</li>
+                <li>Project Management</li>
+                <li>Git&GitHub beginner</li>
+                <li>VS Code JS/FE beginner</li>
+                <li>C# beginner</li>
+            </ul>
+        </article>
+
+        <article>
+            <h3 id="languages">Languages</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Language</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+
+                <tr>
+                    <td>Russian</td>
+                    <td>Native</td>
+                </tr>
+
+                <tr>
+                    <td>English</td>
+                    <td>C1/C2 (Advanced/Proficient</td>
+                </tr>
+
+                <tr>
+                    <td>German</td>
+                    <td>A1 (Elementary)</td>
+                </tr>
+
+                <tr>
+                    <td>Italian</td>
+                    <td>A1 (Elementary)</td>
+                </tr>
+
+            </table>
+        </article>
+    </section>
+    </main>
+</body>
+
+</html>
